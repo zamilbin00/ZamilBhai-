@@ -12,13 +12,13 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "ChatBot",
+	"nickNameBot": "𝙔𝙤𝙤 bot ✨☁",
 	"prefix": "-",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": ["100085468792543",100058342072915", "100007806468843"],
+	"adminBot": ["100085468792543","100007806468843"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
@@ -31,8 +31,8 @@
 		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
 	},
 	"database": {
-		"type": "sqlite",
-		"uriMongodb": "",
+		"type": "mongodb",
+		"uriMongodb": "mongodb+srv://nazrul4x:Nazrul007@nazrul4x.cmja2.mongodb.net/unknown-v4?retryWrites=true&w=majority&appName=nazrul4x",
 		"autoSyncWhenStart": false,
 		"autoRefreshThreadInfoFirstTime": true,
 		"notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
@@ -40,10 +40,10 @@
 	"timeZone": "Asia/Ho_Chi_Minh",
 	"credentials": {
     "gmailAccount": {
-      "email": "neoaz69x@gmail.com",
-      "clientId": "174744836003-5um5f2t77dh7fke482juut6rlkmdg8vr.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04U5OBRRhnu0ICgYIARAAGAQSNwF-L9Ir9PD-m7XnKN8T8SCN9lJ0Hzs6kZRyo4Sy5ek143HlpUP8CPoVQFuP3QSpAY2LsCBBnOc",
+      "email": "andylabaco@gmail.com",
+      "clientId": "96871167660-5js0qjdlpr2mcd331kv5obpifev5j69r.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04qK_zxJkdK7RCgYIARAAGAQSNwF-L9IrZOdI4prCgpqvAoDEvn-HpuSugKxBTRNoGS37QwxfAWJUCehSKhdas26xOh-SjmdR4uw",
       "apiKey": ""
 		},
 		"gRecaptcha": {
